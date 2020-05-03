@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.todoHeader{
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+.delete{
+  float: right;
+  color: white;
+}
+
+.completed{
+text-decoration:line-through;
+}
+
+.active{
+  text-decoration:none;
+}
+
+.addtask{
+  width: 100%;
+}
+
+.cancel{
+  background:red;
+  color: white;
+}
+.addtodo{
+  background:green;
+  color: white;
+}
+
+button{
+  border-radius: 5px;
+  background-color: darkorchid;
+  color: aliceblue;
+}
+
+.selectedFilter{
+color: red;
+}
+
+.tasklist{
+  background:whitesmoke
+}
+
+.error{
+  color: red;
+}
+
+.msg{
+  color: green;
+}
